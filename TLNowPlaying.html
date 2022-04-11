@@ -15,7 +15,7 @@ This is an example of the script outputing to html
 <script>
     function nowplaying() {
 
-    fetch('https://wpln.streamguys1.com/status.xsl') //http is much faster than https
+    fetch('http://npl.streamguys1.com/status.xsl') //http is much faster than https
     .then(response => response.text())
     .then(function(html) {
         var dom = new DOMParser();
