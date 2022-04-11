@@ -12,6 +12,7 @@ The TLNowPlaying.HTML file is an example of including the script directly on a p
 **PHP**
 
 There are two PHP files. ReturnAll.php returns all info from Icecast, which is useful for testing.
+
 ReturnOne.php returns only "Now Playing".
 
 **Python**
@@ -19,4 +20,5 @@ ReturnOne.php returns only "Now Playing".
 There are two Python files.
 
 NowPlaying-ET.py uses ElementTree, but credentials are required to access the raw xml.
+
 NowPlaying-LXML.py uses lxml (and xpath). No credentials are needed.
