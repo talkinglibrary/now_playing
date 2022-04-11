@@ -1,7 +1,8 @@
 # nowplaying
-print "Now Playing" metadata from TL Icecast server
 
 Several different methods to parse the public-facing part of the TL Icecast server and return the "Now Playing" info (Icecast calls this "Current Song"). Javascript, Python, and PHP.
+
+-----
 
 **JS/HTML**
 
