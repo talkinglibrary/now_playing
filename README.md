@@ -1,24 +1,22 @@
 # nowplaying
 
-Several different methods to parse the public-facing part of the TL Icecast server and return the "Now Playing" info (Icecast calls this "Current Song"). Javascript, Python, and PHP.
+Several different methods to parse the public-facing part of the TL Icecast server and return the Now Playing metadata (Icecast calls this "Current Song").
 
 -----
 
 **JS/HTML**
 
-The JS file outputs the text to the browser console. JS in included in the console_log.HTML file.
+The JS file outputs the text to the browser console. This script is included in the console_log.HTML file.
 
-The TLNowPlaying.HTML file is an example of including the script directly on a page.
+The TLNowPlaying.HTML file is an example of including the script directly on a page, and outputting to an HTML tag.
 
 **PHP**
 
-There are two PHP files. ReturnAll.php returns all info from Icecast, which is useful for testing.
+ReturnAll.php returns all fields from Icecast, which is useful for testing.
 
-ReturnOne.php returns only "Now Playing".
+ReturnOne.php returns only "Current Song".
 
 **Python**
-
-There are two Python files.
 
 NowPlaying-ET.py uses ElementTree, but credentials are required to access the raw xml.
 
