@@ -1,3 +1,12 @@
+'''
+Print Now Playing metadata from TL Icecast server.
+
+please note: lxml is not in core Python. Install via PIP.
+
+© Nashville Public Library
+© Ben Weddle is to blame for this code. Anyone is free to use it.
+'''
+
 from lxml import html
 
 source = ('http://npl.streamguys1.com/status.xsl')

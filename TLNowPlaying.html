@@ -21,7 +21,7 @@ This is an example of the script outputing to html
         var dom = new DOMParser();
         var parse = dom.parseFromString(html, "text/html"); 
         var index = 21; //index of 'current song'
-        var result = parse.querySelectorAll('td')[index].textContent; //parse page for tag at index position and return textcontext field
+        var result = parse.querySelectorAll('td')[index].textContent;
         
         document.getElementById('print_title').innerHTML = result //output to matching html tag
     })

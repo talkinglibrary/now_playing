@@ -1,3 +1,10 @@
+'''
+Print Now Playing metadata from TL Icecast server.
+
+© Nashville Public Library
+© Ben Weddle is to blame for this code. Anyone is free to use it.
+'''
+
 import xml.etree.ElementTree as ET
 import requests
 
